@@ -1,0 +1,89 @@
+@charset "UTF-8";
+// stylelint-disable selector-no-qualifying-type
+// Copyright 2019 SME Texaplex Virtual Chapter Contributors. All Rights Reserved.
+// See LICENSE in the repository root for license information.
+// =============================================================================
+
+////
+/// Form styles.
+////
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input:not([type="checkbox"]),
+select {
+  display: block;
+}
+
+input,
+select,
+button,
+textarea {
+  padding: 10px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  color: $text-02;
+  background-color: $ui-01;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+input:not([type="checkbox"]),
+select,
+button,
+textarea {
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -webkit-appearance: none;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 0;
+  resize: vertical;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: $hover-primary;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  box-shadow: 0 0 0 2px $focus;
+}
+
+input[type="checkbox"]:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+button:active {
+  transform: translateY(2px);
+}
+
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+::placeholder {
+  color: $field-01;
+}

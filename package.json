@@ -1,0 +1,53 @@
+{
+  "name": "@smevirtual/lean.css",
+  "version": "0.1.0",
+  "description": "Waste minimization in website production.",
+  "style": "dist/css/bootstrap.css",
+  "sass": "src/bootstrap.scss",
+  "main": "index.js",
+  "scripts": {
+    "dist": "dart-sass src/:dist/ --style compressed",
+    "serve:dev": "node dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smevirtual/lean.css.git"
+  },
+  "keywords": [
+    "framework",
+    "web",
+    "css",
+    "sass"
+  ],
+  "author": "SME Texaplex Virtual Chapter Contributors (https://github.com/smevirtual/lean.css/graphs/contributors)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smevirtual/lean.css/issues"
+  },
+  "homepage": "https://github.com/smevirtual/lean.css",
+  "devDependencies": {
+    "chokidar": "^2.1.5",
+    "dart-sass": "^1.17.4",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "socket.io": "^2.2.0",
+    "stylelint": "^9.10.1",
+    "stylelint-config-prettier": "^5.0.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.1.0",
+    "stylelint-scss": "^3.5.4",
+    "tslint": "^5.15.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "tslint-microsoft-contrib": "^6.1.0",
+    "typescript": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist/{css}/*.{css,map}",
+    "src/**/*.scss"
+  ]
+}

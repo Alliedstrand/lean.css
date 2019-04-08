@@ -1,0 +1,17 @@
+@charset "UTF-8";
+// Copyright 2019 SME Texaplex Virtual Chapter Contributors. All Rights Reserved.
+// See LICENSE in the repository root for license information.
+// =============================================================================
+
+////
+/// Link styling.
+////
+
+a {
+  color: $link-01;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

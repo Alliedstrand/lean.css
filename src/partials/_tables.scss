@@ -1,0 +1,25 @@
+@charset "UTF-8";
+// Copyright 2019 SME Texaplex Virtual Chapter Contributors. All Rights Reserved.
+// See LICENSE in the repository root for license information.
+// =============================================================================
+
+////
+/// Table styling.
+////
+
+table {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 6px;
+}
+
+table,
+th,
+td {
+  border: 1px solid $ui-03;
+}

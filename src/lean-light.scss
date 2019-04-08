@@ -1,0 +1,27 @@
+@charset "UTF-8";
+// Copyright 2019 SME Texaplex Virtual Chapter Contributors. All Rights Reserved.
+// See LICENSE in the repository root for license information.
+// =============================================================================
+
+////
+/// Lean.css is a lightweight styling framework.
+///
+/// This SASS entry-point is for the Light Theme.
+////
+
+$ui-background: #fff !default;
+$ui-01: #f3f3f3 !default;
+$ui-03: #d8d8d8 !default;
+
+$text-01: #121212 !default;
+$text-02: #595859 !default;
+
+$field-01: #f3f3f3 !default;
+
+$link-01: #3c6df0 !default;
+
+$focus: #3151b7 !default;
+
+$hover-primary: #2e3f8f !default;
+
+@import "partials/partials";

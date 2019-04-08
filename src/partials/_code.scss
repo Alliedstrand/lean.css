@@ -1,0 +1,23 @@
+@charset "UTF-8";
+// Copyright 2019 SME Texaplex Virtual Chapter Contributors. All Rights Reserved.
+// See LICENSE in the repository root for license information.
+// =============================================================================
+
+////
+/// Source code styling.
+////
+
+code,
+kbd {
+  padding: 5px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: $text-01;
+  background: $ui-01;
+  border-radius: 0;
+}
+
+pre > code {
+  display: block;
+  padding: 10px;
+  overflow-x: auto;
+}
