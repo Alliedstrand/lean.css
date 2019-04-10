@@ -9,17 +9,62 @@
 
 table {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+  border-spacing: 0;
   border-collapse: collapse;
+  border: 0;
+}
+
+thead {
+  font-weight: 700;
+  color: $text-01;
+  border-bottom: 2px solid $ui-04;
+}
+
+tbody {
+  font-weight: 400;
 }
 
 td,
 th {
-  padding: 6px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: left;
+}
+
+th:first-of-type,
+td:first-of-type {
+  padding-left: 1rem;
 }
 
 table,
 th,
 td {
-  border: 1px solid $ui-03;
+  border: 0;
+}
+
+th,
+tr {
+  height: 3rem;
+}
+
+td {
+  color: $text-01;
+  border-bottom: 1px solid $ui-03;
+}
+
+tr th {
+  background: $ui-03;
+}
+
+tr th:hover {
+  background: $hover-selected-ui;
+}
+
+tbody tr {
+  background: $ui-01;
+}
+
+tbody tr:hover {
+  background: $hover-row;
 }

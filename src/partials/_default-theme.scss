@@ -1,0 +1,69 @@
+@charset "UTF-8";
+// Copyright 2019 SME Texaplex Virtual Chapter Contributors. All Rights Reserved.
+// See LICENSE in the repository root for license information.
+// =============================================================================
+
+////
+/// Default theme settings for Lean.css.
+////
+
+/// Page background.
+/// @type Color
+$ui-background: #fff !default;
+
+/// Primary container background.
+/// @type Color
+$ui-01: #f3f3f3 !default;
+/// Subtle border color and tertiary background color.
+/// @type Color
+$ui-03: #d8d8d8 !default;
+/// Medium contrast border color.
+/// @type Color
+$ui-04: #121212 !default;
+
+/// Primary button color.
+/// @type Color
+$interactive-01: #3c6df0 !default;
+
+/// Primary text, headers, table headers/data, field labels and field text color.
+/// @type Color
+$text-01: #121212 !default;
+/// Field placeholder text color.
+/// @type Color
+$text-03: #343334 !default;
+/// Text color with `$interactive-01` as the background color.
+/// @type Color
+$text-04: #fff !default;
+
+/// Field color on top of a `$ui-background` colored background.
+/// @type Color
+$field-01: #f3f3f3 !default;
+
+/// Link color.
+/// @type Color
+$link-01: #3c6df0 !default;
+/// Link color after it has been visited by the user.
+/// @type Color
+$visited-link: #785ef0 !default;
+
+/// Focus border for buttons and fields - mostly for accessibility.
+/// @type Color
+$focus: #3151b7 !default;
+
+/// Hover color for `$interactive-01` colored elements.
+/// @type Color
+$hover-primary: #2e3f8f !default;
+
+/// Hover color for data table column headers.
+/// @type Color
+$hover-selected-ui: #c0bfc0 !default;
+/// Hover color for data table body rows.
+/// @type Color
+$hover-row: #eaeaea !default;
+
+/// Disabled field background color.
+/// @type Color
+$disabled-01: #f3f3f3 !default;
+/// Disabled field text and bottom border color.
+/// @type Color
+$disabled-02: #d8d8d8 !default;

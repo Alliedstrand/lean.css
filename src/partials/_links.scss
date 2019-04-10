@@ -8,10 +8,16 @@
 ////
 
 a {
+  font-weight: 700;
   color: $link-01;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:active {
   text-decoration: underline;
+}
+
+a:visited {
+  color: $visited-link;
 }

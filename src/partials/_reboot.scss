@@ -53,20 +53,18 @@ html {
 }
 
 body {
-  max-width: 800px;
-  padding: 0 10px;
-  margin: 20px auto;
-
+  max-width: 99rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: 1rem auto;
   // stylelint-disable value-list-comma-newline-after, value-list-comma-space-after
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   // stylelint-enable value-list-comma-newline-after, value-list-comma-space-after
-
+  font-size: 16px;
   line-height: 1.5;
-
   color: $text-01;
   background: $ui-background;
-
   text-rendering: optimizeLegibility;
 }
 
@@ -76,5 +74,19 @@ img {
 
 hr {
   border: none;
-  border-top: 1px solid $ui-03;
+  border-top: 2px solid $ui-04;
+}
+
+// For Medium displays (i.e. tablets).
+@media (min-width: 42rem) {
+  body {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 99rem) {
+  body {
+    max-width: 100%;
+  }
 }

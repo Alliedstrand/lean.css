@@ -5,8 +5,25 @@
 // =============================================================================
 
 ////
-/// Form styles.
+/// Form and input element styles.
 ////
+
+label {
+  font-weight: 700;
+  color: $text-01;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+  border: 0;
+}
+
+legend {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
 
 button,
 input[type="submit"],
@@ -24,17 +41,37 @@ input,
 select,
 button,
 textarea {
-  padding: 10px;
-  margin-right: 6px;
-  margin-bottom: 6px;
+  padding: 0.75rem;
+  margin-top: 0.375rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
   font-family: inherit;
   font-size: inherit;
-  font-weight: 700;
-  color: $text-02;
-  background-color: $ui-01;
+  font-weight: 400;
+  color: $text-01;
+  background-color: $field-01;
   border: none;
   border-radius: 0;
   outline: none;
+}
+
+input,
+select,
+textarea {
+  border-bottom: 2px solid $ui-04;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+  height: 2.5rem;
+  padding: 0 1rem;
+  font-weight: 700;
+  color: $text-04;
+  background-color: $interactive-01;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px;
 }
 
 input:not([type="checkbox"]),
@@ -52,38 +89,41 @@ textarea {
   resize: vertical;
 }
 
-button,
-input[type="submit"],
-input[type="button"] {
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
 button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover {
   background: $hover-primary;
 }
 
+button:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus {
+  border: 2px solid $ui-background;
+  outline: 2px solid $focus;
+}
+
 input:focus,
 select:focus,
-button:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px $focus;
+  outline: 2px solid $focus;
 }
 
-input[type="checkbox"]:active,
-input[type="submit"]:active,
-input[type="button"]:active,
-button:active {
-  transform: translateY(2px);
-}
-
-input:disabled {
+input:disabled,
+select:disabled,
+textarea:disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  background: $disabled-01;
+  border-color: $disabled-02;
 }
 
 ::placeholder {
-  color: $field-01;
+  color: $text-03;
+}
+
+input:disabled::placeholder {
+  color: $disabled-02;
+}
+
+input[type="checkbox"] + label {
+  font-weight: 400;
 }

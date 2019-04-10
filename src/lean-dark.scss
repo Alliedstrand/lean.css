@@ -4,7 +4,7 @@
 // =============================================================================
 
 ////
-/// Lean.css is a lightweight styling framework.
+/// Lean.css is a lightweight styling library.
 ///
 /// This SASS entry-point is for the Dark Theme.
 ////
@@ -12,16 +12,27 @@
 $ui-background: #121212 !default;
 $ui-01: #272727 !default;
 $ui-03: #343334 !default;
+$ui-04: #fff !default;
+
+$interactive-01: #3c6df0 !default;
 
 $text-01: #f3f3f3 !default;
-$text-02: #c0bfc0 !default;
+$text-03: #949394 !default;
+$text-04: #fff !default;
 
 $field-01: #272727 !default;
 
-$link-01: #89a2f6 !default;
+$link-01: #648fff !default;
+$visited-link: #9b82f3 !default;
 
-$focus: #fff !default;
+$focus: #3151b7 !default;
 
 $hover-primary: #2e3f8f !default;
+
+$hover-selected-ui: #595859 !default;
+$hover-row: #343334 !default;
+
+$disabled-01: #272727 !default;
+$disabled-02: #343334 !default;
 
 @import "partials/partials";

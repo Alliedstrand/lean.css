@@ -2,6 +2,7 @@
 
 [![On Reddit](https://img.shields.io/badge/on-reddit-orange.svg?style=flat-square)](https://www.reddit.com/r/SMEVirtual/)
 [![On Discord Chat](https://img.shields.io/discord/480736300480331796.svg?style=flat-square)](https://discord.gg/ufADa72)
+[![On Twitter](https://img.shields.io/twitter/follow/smevirtual.svg?label=Follow)](https://twitter.com/smevirtual)
 
 **Waste minimization in website production.**
 
@@ -22,9 +23,9 @@ or other web applications that are complex in nature.
 
 - Light and dark theme support with high-contrast features for user-friendliness and accessibility.
 - Support for all Modern Web Browsers and Internet Explorer 11.
-- Small distributable size.
-- Class use is kept to an absolute minimum.
-- No JavaScript.
+- Small distributable size for lightening fast load times.
+- Class use is kept to an absolute minimum with attractive default styling for native elements.
+- No JavaScript is needed for the benefit of SEO and load times.
 
 ### Usage
 

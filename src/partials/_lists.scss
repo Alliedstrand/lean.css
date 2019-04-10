@@ -4,10 +4,9 @@
 // =============================================================================
 
 ////
-/// Lean.css is a lightweight styling library.
-///
-/// This SASS entry-point is for the Light Theme. The Light Theme is the default
-/// theme for Lean.css.
+/// List styling.
 ////
 
-@import "partials/partials";
+ul {
+  list-style-type: square;
+}
