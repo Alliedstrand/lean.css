@@ -1,9 +1,5 @@
 ## Lean.css
 
-[![On Reddit](https://img.shields.io/badge/on-reddit-orange.svg?style=flat-square)](https://www.reddit.com/r/SMEVirtual/)
-[![On Discord Chat](https://img.shields.io/discord/480736300480331796.svg?style=flat-square)](https://discord.gg/ufADa72)
-[![On Twitter](https://img.shields.io/twitter/follow/smevirtual.svg?label=Follow)](https://twitter.com/smevirtual)
-
 **Waste minimization in website production.**
 
 [Lean](https://en.wikipedia.org/wiki/Lean_manufacturing) is a manufacturing
@@ -49,19 +45,12 @@ TODO
 
 ### Community Participation Guidelines
 
-The SME Virtual Network is committed to providing a friendly, safe and welcoming
-environment for all. Please take a moment to read our
-<a href="https://github.com/smevirtual/community-guidelines/blob/master/README.md">Community Participation Guidelines</a>.
+TODO
 
 ### Attributions
 
 This project is based on (started as a fork from) the [Water.css](https://github.com/kognise/water.css)
 project which is under [The MIT License](https://raw.githubusercontent.com/kognise/water.css/master/LICENSE.md).
-
-The Lean.css project contains several modifications that are unique for the
-purposes of the [SME Virtual Network](https://smevirtual.com/). If you are
-looking for something slightly more customizable, check out the original
-[Water.css](https://github.com/kognise/water.css) project.
 
 Some portions of this project are originally part of the [Bootstrap](https://github.com/twbs/bootstrap)
 project and the [normalize.css](https://github.com/necolas/normalize.css/)
