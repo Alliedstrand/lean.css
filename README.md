@@ -2,6 +2,8 @@
 
 **Waste minimization in website production.**
 
+[![Build Status](https://dev.azure.com/alliedstrand-open/lean.css/_apis/build/status/Alliedstrand.lean.css?branchName=master)](https://dev.azure.com/alliedstrand-open/lean.css/_build/latest?definitionId=1&branchName=master)
+
 [Lean](https://en.wikipedia.org/wiki/Lean_manufacturing) is a manufacturing
 philosophy that encourages the identification and elimination of waste without
 sacrificing production efficiency (and, hopefully, improving it).
