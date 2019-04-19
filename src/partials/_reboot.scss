@@ -39,6 +39,7 @@ html {
 // IE10+ doesn't honor `<meta name="viewport">` in some cases.
 @at-root {
   @-ms-viewport {
+    //noinspection CssInvalidPropertyValue
     width: device-width;
   }
 }
@@ -58,8 +59,7 @@ body {
   padding-left: 1rem;
   margin: 1rem auto;
   // stylelint-disable value-list-comma-newline-after, value-list-comma-space-after
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   // stylelint-enable value-list-comma-newline-after, value-list-comma-space-after
   font-size: 16px;
   line-height: 1.5;
