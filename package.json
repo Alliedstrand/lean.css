@@ -1,5 +1,5 @@
 {
-  "name": "@smevirtual/lean.css",
+  "name": "@alliedstrand/lean.css",
   "version": "0.1.0",
   "description": "Waste minimization in website production.",
   "style": "dist/lean-light.css",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smevirtual/lean.css.git"
+    "url": "git+https://github.com/Alliedstrand/lean.css.git"
   },
   "keywords": [
     "framework",
@@ -19,12 +19,12 @@
     "css",
     "sass"
   ],
-  "author": "SME Texaplex Virtual Chapter Contributors (https://github.com/smevirtual/lean.css/graphs/contributors)",
+  "author": "Alliedstrand Corporation <open@alliedstrand.com> (https://alliedstrand.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smevirtual/lean.css/issues"
+    "url": "https://github.com/Alliedstrand/lean.css/issues"
   },
-  "homepage": "https://github.com/smevirtual/lean.css",
+  "homepage": "https://alliedstrand.github.io/lean.css",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
